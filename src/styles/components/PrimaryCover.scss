@@ -1,2 +1,32 @@
 .primary-cover {
+  padding-top: 96px;
+
+  &__text-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    max-width: 1120px;
+    padding-bottom: 48px;
+  }
+
+  &__text {
+    position: absolute;
+    right: 48px;
+    bottom: 32px;
+    max-width: 360px;
+  }
+
+  button {
+    width: fit-content;
+  }
+
+  &__image-container {
+    aspect-ratio: 1920/785;
+    width: 100%;
+    padding-top: 128px;
+    overflow: hidden;
+  }
 }

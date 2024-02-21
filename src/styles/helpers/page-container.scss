@@ -5,7 +5,7 @@
   margin: 0 auto;
 
   @include break(laptop) {
-    max-width: 960px;
+    max-width: 1040px;
   }
 
   @include break(tablet) {

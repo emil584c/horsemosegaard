@@ -1,7 +1,25 @@
 function PrimaryCover() {
   return (
     <>
-      <h1>Horsemosegaard</h1>
+      <section className="primary-cover">
+        <div className="primary-cover__text-container page-container">
+          <h1 className="primary-cover__title">
+            Samsamsam med fokus på den oplevelse
+          </h1>
+          <p className="primary-cover__text">
+            Horsemosegaard er gården stiller vi mangle forskellige ting til
+            rådighed bare rolig der er styr på alt for dig. mange forskellige
+            facilititer
+          </p>
+          <button>Læs mere</button>
+        </div>
+        <div className="primary-cover__image-container object-fit">
+          <img
+            src="/img/cover-image.png"
+            alt=""
+          />
+        </div>
+      </section>
     </>
   );
 }
