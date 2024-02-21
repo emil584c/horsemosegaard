@@ -8,13 +8,12 @@
   }
 
   &__title {
-    max-width: 1120px;
     padding-bottom: 48px;
   }
 
   &__text {
     position: absolute;
-    right: 48px;
+    right: 80px;
     bottom: 32px;
     max-width: 360px;
   }
@@ -28,5 +27,42 @@
     width: 100%;
     padding-top: 128px;
     overflow: hidden;
+  }
+
+  @include break(tablet) {
+    padding-top: 60px;
+
+    &__text {
+      max-width: 300px;
+      bottom: 8px;
+      right: 48px;
+    }
+
+    &__image-container {
+      padding-top: 60px;
+      aspect-ratio: 1920/1064;
+    }
+  }
+
+  @include break(mobile) {
+    &__text-container {
+      align-items: center;
+    }
+
+    &__title {
+      text-align: center;
+      padding-bottom: 24px;
+    }
+
+    &__text {
+      text-align: center;
+      position: relative;
+      right: 0;
+      bottom: 0;
+      padding-bottom: 16px;
+    }
+
+    &__image-container {
+    }
   }
 }

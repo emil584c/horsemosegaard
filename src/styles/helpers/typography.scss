@@ -15,6 +15,7 @@ p {
 h1 {
   font-size: 88px !important;
   font-weight: 700;
+  max-width: 1120px;
 }
 
 h2 {
@@ -31,4 +32,33 @@ h3 {
 p {
   line-height: 28px;
   font-weight: 400;
+}
+
+@include break(laptop) {
+  h1 {
+    max-width: 900px;
+    font-size: 64px !important;
+  }
+}
+
+@include break(tablet) {
+  h1 {
+    max-width: 900px;
+    font-size: 48px !important;
+  }
+
+  p {
+    font-size: 14px !important;
+  }
+}
+
+@include break(mobile) {
+  h1 {
+    max-width: 900px;
+    font-size: 32px !important;
+  }
+
+  h2 {
+    font-size: 28px !important;
+  }
 }
