@@ -1,5 +1,6 @@
 import PrimaryCover from "./PrimaryCover.jsx";
 import TextImage from "./TextImage.jsx";
+import TextCalender from "./TextCalender.jsx";
 
 function HomePage() {
   return (
@@ -17,9 +18,15 @@ function HomePage() {
           },
           {
             url: "./img/room.png",
-            alt: "alttag",
+            alt: "alttags",
           },
         ]}
+      />
+      <TextCalender
+        title={"hell yeah"}
+        text={
+          "Thaaats insane her på gården stiller vi mange forskellige ting til rådighed bare rolig der er styr på alt for dig. mange forskellige facilititerlt for dig. mange forskellige facilititer"
+        }
       />
     </>
   );

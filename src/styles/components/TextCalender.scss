@@ -1,0 +1,43 @@
+.text-calender {
+  padding: 80px 0;
+
+  &__title {
+    padding-bottom: 24px;
+  }
+
+  &__text {
+    max-width: 480px;
+  }
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  iframe {
+    height: 600px;
+    width: 800px;
+  }
+
+  @include break(laptop) {
+    iframe {
+      width: 500px !important;
+      height: 400px !important;
+    }
+  }
+
+  @include break(tablet) {
+    iframe {
+      width: 400px !important;
+      height: 400px !important;
+    }
+
+    &__text {
+      max-width: 320px;
+    }
+
+    &__title {
+      padding-bottom: 16px;
+    }
+  }
+}
