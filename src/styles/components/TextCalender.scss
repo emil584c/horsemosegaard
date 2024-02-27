@@ -17,6 +17,12 @@
   iframe {
     height: 600px;
     width: 800px;
+
+    html {
+      body {
+        background-color: #fff8f3 !important;
+      }
+    }
   }
 
   @include break(laptop) {
@@ -24,16 +30,26 @@
       width: 500px !important;
       height: 400px !important;
     }
+
+    &__text {
+      max-width: 400px;
+      font-size: 14px;
+    }
   }
 
   @include break(tablet) {
+    &__inner {
+      flex-direction: column;
+    }
+
     iframe {
-      width: 400px !important;
+      width: 100% !important;
       height: 400px !important;
     }
 
     &__text {
       max-width: 320px;
+      padding-bottom: 32px;
     }
 
     &__title {

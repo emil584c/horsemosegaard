@@ -1,3 +1,4 @@
+import HeaderSection from "./HeaderSection.jsx";
 import PrimaryCover from "./PrimaryCover.jsx";
 import TextImage from "./TextImage.jsx";
 import TextCalender from "./TextCalender.jsx";
@@ -5,6 +6,7 @@ import TextCalender from "./TextCalender.jsx";
 function HomePage() {
   return (
     <>
+      <HeaderSection />
       <PrimaryCover />
       <TextImage
         title={"bar og musik"}
@@ -21,6 +23,7 @@ function HomePage() {
             alt: "alttags",
           },
         ]}
+        background={"baam"}
       />
       <TextCalender
         title={"hell yeah"}
