@@ -78,22 +78,6 @@ function HeaderSection() {
                 About
               </Link>
             </li>
-            <li onClick={() => setShow(!show)}>
-              <Link
-                to={"/#work"}
-                onClick={() => scrollToAnchor("work")}
-              >
-                Projects
-              </Link>
-            </li>
-            <li onClick={() => setShow(!show)}>
-              <Link
-                to={"/#contact"}
-                onClick={() => scrollToAnchor("contact")}
-              >
-                Contact
-              </Link>
-            </li>
           </ul>
         </div>
       </header>

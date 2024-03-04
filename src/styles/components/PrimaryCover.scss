@@ -45,6 +45,8 @@
   }
 
   @include break(mobile) {
+    padding-top: 100px;
+
     &__text-container {
       align-items: center;
     }

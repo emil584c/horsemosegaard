@@ -34,20 +34,18 @@
   }
 
   .swiper-button-prev {
-    position: absolute;
-    height: 40px;
-    width: 40px;
-    background: #000;
-    top: 60px;
-    left: -32px;
-    z-index: 100;
+    color: white;
+
+    &::after {
+      font-size: 24px;
+    }
   }
   .swiper-button-next {
-    position: absolute;
-    height: 40px;
-    width: 40px;
-    background: #000;
-    z-index: 60;
+    color: white;
+
+    &::after {
+      font-size: 24px;
+    }
   }
 
   @include break(laptop) {
