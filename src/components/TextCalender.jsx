@@ -9,8 +9,7 @@ function TextCalender({ title, text }) {
           </div>
           <div className="text-calender__calender-section">
             <iframe
-              id="calender-iframe"
-              src="https://calendar.google.com/calendar/embed?src=8b942db0d367bf6b4968c557b9d1fa8f962b42b13e991245c093be155a7e0f7e%40group.calendar.google.com&ctz=Europe%2FCopenhagen"
+              src="https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=Europe%2FCopenhagen&bgcolor=%23fff8f3&showPrint=0&showTz=0&showCalendars=0&showTabs=0&showTitle=0&src=OGI5NDJkYjBkMzY3YmY2YjQ5NjhjNTU3YjlkMWZhOGY5NjJiNDJiMTNlOTkxMjQ1YzA5M2JlMTU1YTdlMGY3ZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23795548"
               frameborder="0"
               scrolling="no"
             ></iframe>
