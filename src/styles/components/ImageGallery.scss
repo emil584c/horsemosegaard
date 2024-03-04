@@ -22,9 +22,19 @@
 
   &__image-container {
     aspect-ratio: 1/1;
+    overflow: hidden;
 
     img {
       object-position: center;
+      transition: scale 500ms;
+    }
+
+    @include breakM(laptop) {
+      &:hover {
+        img {
+          scale: 1.05;
+        }
+      }
     }
   }
 
