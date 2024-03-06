@@ -42,6 +42,8 @@
           color: #000;
           font-weight: 300;
           font-size: 20px !important;
+          position: relative;
+          top: 4px;
 
           @include break(laptop) {
             font-size: 16px !important;
@@ -67,7 +69,6 @@
 
   &__logo {
     font-size: 32px;
-    transition: letter-spacing 500ms ease;
     cursor: pointer;
     position: relative;
     z-index: 12;

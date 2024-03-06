@@ -5,21 +5,20 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   &__title {
-    padding-bottom: 48px;
+    padding-bottom: 32px;
+    text-align: center;
   }
 
   &__text {
-    position: absolute;
-    right: 80px;
-    bottom: 32px;
-    max-width: 360px;
-  }
-
-  button {
-    width: fit-content;
+    max-width: 575px;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 32px;
+    font-weight: 400;
   }
 
   &__image-container {
@@ -29,14 +28,15 @@
     overflow: hidden;
   }
 
-  @include break(tablet) {
-    padding-top: 60px;
-
+  @include break(laptop) {
     &__text {
-      max-width: 300px;
-      bottom: 8px;
-      right: 48px;
+      font-size: 14px !important;
+      max-width: 480px;
     }
+  }
+
+  @include break(tablet) {
+    padding-top: 140px;
 
     &__image-container {
       padding-top: 60px;
@@ -47,24 +47,14 @@
   @include break(mobile) {
     padding-top: 100px;
 
-    &__text-container {
-      align-items: center;
-    }
-
     &__title {
-      text-align: center;
       padding-bottom: 24px;
     }
 
     &__text {
-      text-align: center;
-      position: relative;
-      right: 0;
-      bottom: 0;
+      font-size: 12px !important;
+      line-height: 200%;
       padding-bottom: 16px;
-    }
-
-    &__image-container {
     }
   }
 }

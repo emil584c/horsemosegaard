@@ -1,3 +1,5 @@
+import PrimaryButton from "./PrimaryButton";
+
 function PrimaryCover() {
   return (
     <>
@@ -11,7 +13,7 @@ function PrimaryCover() {
             rådighed bare rolig der er styr på alt for dig. mange forskellige
             facilititer
           </p>
-          <button>Læs mere</button>
+          <PrimaryButton text={"Læs mere"} />
         </div>
         <div className="primary-cover__image-container object-fit">
           <img
