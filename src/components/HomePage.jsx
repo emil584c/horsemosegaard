@@ -2,7 +2,6 @@ import HeaderSection from "./HeaderSection.jsx";
 import PrimaryCover from "./PrimaryCover.jsx";
 import TextImage from "./TextImage.jsx";
 import TextCalender from "./TextCalender.jsx";
-import ImageGallery from "./ImageGallery.jsx";
 import FooterSection from "./FooterSection.jsx";
 
 function HomePage() {
@@ -10,38 +9,6 @@ function HomePage() {
     <>
       <HeaderSection />
       <PrimaryCover />
-      <ImageGallery
-        title={"Billeder yay"}
-        text={
-          "wow der er mange billeder her, ow der er mange billeder herow der er mange billeder her"
-        }
-        images={[
-          {
-            url: "./img/speakers.png",
-            alt: "1",
-          },
-          {
-            url: "./img/room.png",
-            alt: "2",
-          },
-          {
-            url: "./img/speakers.png",
-            alt: "3",
-          },
-          {
-            url: "./img/room.png",
-            alt: "4",
-          },
-          {
-            url: "./img/speakers.png",
-            alt: "5",
-          },
-          {
-            url: "./img/room.png",
-            alt: "6",
-          },
-        ]}
-      />
       <TextImage
         title={"Vores faciliteter"}
         text={

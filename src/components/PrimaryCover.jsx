@@ -1,4 +1,5 @@
 import PrimaryButton from "./PrimaryButton";
+import ImageGallery from "./ImageGallery";
 
 function PrimaryCover() {
   return (
@@ -15,12 +16,34 @@ function PrimaryCover() {
           </p>
           <PrimaryButton text={"Læs mere"} />
         </div>
-        <div className="primary-cover__image-container object-fit">
-          <img
-            src="/img/cover-image.png"
-            alt=""
-          />
-        </div>
+        <ImageGallery
+          images={[
+            {
+              url: "./img/speakers.png",
+              alt: "1",
+            },
+            {
+              url: "./img/room.png",
+              alt: "2",
+            },
+            {
+              url: "./img/speakers.png",
+              alt: "3",
+            },
+            {
+              url: "./img/room.png",
+              alt: "4",
+            },
+            {
+              url: "./img/speakers.png",
+              alt: "5",
+            },
+            {
+              url: "./img/room.png",
+              alt: "6",
+            },
+          ]}
+        />
       </section>
     </>
   );
