@@ -8,7 +8,7 @@ function FooterSection() {
           <div className="footer-section__row">
             <Link className="footer-section__logo">
               <img
-                src="./img/icons/farm.svg"
+                src="./img/icons/farm-white.svg"
                 alt="farm icon"
               />
               <p className="header-section__logo-text">Horsemosegaard</p>

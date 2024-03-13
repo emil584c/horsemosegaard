@@ -1,5 +1,6 @@
 .footer-section {
   padding: 32px;
+  background-color: #3c343c;
 
   &__inner {
     display: flex;
@@ -20,6 +21,7 @@
   &__text {
     max-width: 295px;
     font-size: 14px;
+    color: #fff;
   }
 
   &__logo {
@@ -35,12 +37,18 @@
     img {
       position: relative;
       bottom: 6px;
+      color: #fff;
+    }
+
+    p {
+      color: #fff;
     }
   }
   &__row-title {
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 16px;
+    color: #fff;
   }
 
   &__row {
@@ -56,9 +64,11 @@
 
         a {
           font-size: 14px;
+          color: #fff;
         }
         p {
           font-size: 14px;
+          color: #fff;
         }
       }
     }
