@@ -35,9 +35,17 @@
   }
 
   @include break(tablet) {
-    font-size: 16px;
+    p {
+      font-size: 16px;
+    }
   }
   @include break(mobile) {
-    font-size: 14px;
+    p {
+      font-size: 12px;
+    }
+
+    &--navigation {
+      display: none;
+    }
   }
 }

@@ -23,6 +23,10 @@
   &__slide {
     max-width: 620px;
     max-height: 620px;
+
+    img {
+      border-radius: 8px;
+    }
   }
 
   .swiper {

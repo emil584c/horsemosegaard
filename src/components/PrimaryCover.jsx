@@ -1,5 +1,5 @@
 import PrimaryButton from "./PrimaryButton";
-import ImageGallery from "./ImageGallery";
+import ImageSlider from "./ImageSlider";
 
 function PrimaryCover() {
   return (
@@ -7,16 +7,16 @@ function PrimaryCover() {
       <section className="primary-cover">
         <div className="primary-cover__text-container page-container">
           <h1 className="primary-cover__title">
-            Samsamsam med fokus på den oplevelse
+            Lokaler til fest, arrangementer og meget mere
           </h1>
           <p className="primary-cover__text">
-            Horsemosegaard er gården stiller vi mangle forskellige ting til
-            rådighed bare rolig der er styr på alt for dig. mange forskellige
-            facilititer
+            Horsemosegaard er for dig som ønsker nogle hyggelige lokaler i en
+            moderne rustik stil i skønne landlige omgivelser. Det er et sted
+            hvor man kan være aktiv sammen med sine gæster inde og ude.
           </p>
           <PrimaryButton text={"Læs mere"} />
         </div>
-        <ImageGallery
+        <ImageSlider
           images={[
             {
               url: "./img/speakers.png",
@@ -41,6 +41,14 @@ function PrimaryCover() {
             {
               url: "./img/room.png",
               alt: "6",
+            },
+            {
+              url: "./img/room.png",
+              alt: "7",
+            },
+            {
+              url: "./img/room.png",
+              alt: "8",
             },
           ]}
         />

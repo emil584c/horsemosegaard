@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
+import PrimaryButton from "./PrimaryButton";
 
 function HeaderSection() {
   const [show, setShow] = useState(false);
@@ -36,7 +37,7 @@ function HeaderSection() {
   return (
     <>
       <header
-        className={`header-section ${show ? "show" : ""}${scrolltopdata}`}
+        className={`header-section ${show ? "show " : ""}${scrolltopdata}`}
       >
         <nav className="header-section__inner">
           <Link
@@ -52,14 +53,41 @@ function HeaderSection() {
           <ul>
             <li>
               <Link
-                to={"/#about"}
+                to={"/#offers"}
                 onClick={() => scrollToAnchor("about")}
               >
-                About
+                Vi tilbyder
+              </Link>
+            </li>
+            <li>
+              <Link
+                to={"hvem-er-vi"}
+                onClick={() => scrollToAnchor("about")}
+              >
+                Hvem er vi
+              </Link>
+            </li>
+            <li>
+              <Link
+                to={"priser"}
+                onClick={() => scrollToAnchor("about")}
+              >
+                Priser
+              </Link>
+            </li>
+            <li>
+              <Link
+                to={"faciliteter"}
+                onClick={() => scrollToAnchor("about")}
+              >
+                Faciliter
               </Link>
             </li>
           </ul>
-
+          <PrimaryButton
+            className={"primary-button--navigation"}
+            text={"Kontakt"}
+          />
           <div
             onClick={() => setShow(!show)}
             className="header-section__hamburger-menu"

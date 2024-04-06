@@ -1,8 +1,11 @@
-const PrimaryButton = ({ text }) => {
+const PrimaryButton = ({ text, className, href }) => {
   return (
-    <button className="primary-button">
+    <a
+      href={href}
+      className={`primary-button ${className ? className : ""}`}
+    >
       <p>{text}</p>
-    </button>
+    </a>
   );
 };
 
