@@ -8,11 +8,15 @@ function TextImage({
   text,
   images = [{ url: "", alt: "" }],
   listItems = [],
-  background = { white: "background-white", cream: "background-cream" },
+  backgroundSecondary,
 }) {
   return (
     <>
-      <section className={`text-image page-container ${background}`}>
+      <section
+        className={`text-image page-container ${
+          backgroundSecondary ? "background-secondary" : ""
+        }`}
+      >
         <div className="text-image__inner">
           <div className="text-image__text-container">
             <h2 className="text-image__title">{title}</h2>

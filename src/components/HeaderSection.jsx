@@ -84,10 +84,12 @@ function HeaderSection() {
               </Link>
             </li>
           </ul>
-          <PrimaryButton
-            className={"primary-button--navigation"}
-            text={"Kontakt"}
-          />
+          <div className="header-section__button-container">
+            <PrimaryButton
+              className={"primary-button--navigation"}
+              text={"Kontakt"}
+            />
+          </div>
           <div
             onClick={() => setShow(!show)}
             className="header-section__hamburger-menu"

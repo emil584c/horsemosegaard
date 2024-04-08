@@ -4,6 +4,7 @@ import TextImage from "../TextImage.jsx";
 import TextCalender from "../TextCalender.jsx";
 import Offers from "../Offers.jsx";
 import FooterSection from "../FooterSection.jsx";
+import ContactSection from "../ContactSection.jsx";
 
 function HomePage() {
   return (
@@ -25,7 +26,6 @@ function HomePage() {
             alt: "alttags",
           },
         ]}
-        background={"baam"}
       />
       <Offers
         title="Hvad tilbyder vi"
@@ -55,6 +55,12 @@ function HomePage() {
         text={
           "Thaaats insane her på gården stiller vi mange forskellige ting til rådighed bare rolig der er styr på alt for dig. mange forskellige facilititerlt for dig. mange forskellige facilititer"
         }
+      />
+      <ContactSection
+        title="Kontakt os"
+        text="Har i spørgsmål til vores faciliteter, eller har i lyst til at tage en snak om vi er det rette sted for jer, så send en besked over messenger osv osv."
+        image={{ url: "./img/room.png", alt: "alttag" }}
+        backgroundSecondary={true}
       />
       <FooterSection />
     </>

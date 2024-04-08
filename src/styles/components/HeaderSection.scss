@@ -1,7 +1,6 @@
 .header-section {
   padding: 40px 0;
   $self: &;
-  position: fixed;
   width: 100%;
   z-index: 10;
   box-shadow: 0px 0px 0px 0px rgba(11, 11, 11, 0.75);
@@ -10,6 +9,8 @@
   transition: background-color 100ms;
   transition: box-shadow 100ms;
   transition: padding 300ms ease-in;
+  background-color: #fff8f3;
+  position: fixed;
 
   @include break(mobile) {
     padding: 24px 0;
@@ -18,13 +19,13 @@
   &__inner {
     max-width: 90%;
     margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
 
     ul {
       display: flex;
       gap: 24px;
+      margin: auto;
 
       li {
         list-style: none;
@@ -78,8 +79,13 @@
 
     img {
       position: relative;
-      bottom: 4px;
+      bottom: 8px;
     }
+  }
+
+  &__button-container {
+    margin-left: auto;
+    display: flex;
   }
 
   &__hamburger-menu {
