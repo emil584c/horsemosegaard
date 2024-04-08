@@ -61,7 +61,7 @@ function HeaderSection() {
             </li>
             <li>
               <Link
-                to={"hvem-er-vi"}
+                to={"/hvem-er-vi"}
                 onClick={() => scrollToAnchor("about")}
               >
                 Hvem er vi
@@ -69,7 +69,7 @@ function HeaderSection() {
             </li>
             <li>
               <Link
-                to={"priser"}
+                to={"/priser"}
                 onClick={() => scrollToAnchor("about")}
               >
                 Priser
@@ -77,7 +77,7 @@ function HeaderSection() {
             </li>
             <li>
               <Link
-                to={"faciliteter"}
+                to={"/faciliteter"}
                 onClick={() => scrollToAnchor("about")}
               >
                 Faciliter
@@ -88,6 +88,7 @@ function HeaderSection() {
             <PrimaryButton
               className={"primary-button--navigation"}
               text={"Kontakt"}
+              href={"#kontakt"}
             />
           </div>
           <div

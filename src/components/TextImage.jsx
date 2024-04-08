@@ -21,6 +21,18 @@ function TextImage({
           <div className="text-image__text-container">
             <h2 className="text-image__title">{title}</h2>
             <p className="text-image__text">{text}</p>
+            {listItems && (
+              <ul className="text-image__list">
+                {listItems.map((item, index) => (
+                  <li
+                    key={index}
+                    className="text-image__list-item"
+                  >
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            )}
           </div>
           <div className="text-image__image-slider">
             <Swiper

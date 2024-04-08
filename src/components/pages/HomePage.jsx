@@ -26,6 +26,7 @@ function HomePage() {
             alt: "alttags",
           },
         ]}
+        listItems={["Festlokale", "Overnatning", "Udearealer", "Aktiviteter"]}
       />
       <Offers
         title="Hvad tilbyder vi"
