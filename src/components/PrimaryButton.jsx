@@ -1,8 +1,10 @@
-const PrimaryButton = ({ text, className, href }) => {
+const PrimaryButton = ({ text, className, href, transparent }) => {
   return (
     <a
       href={href}
-      className={`primary-button ${className ? className : ""}`}
+      className={`primary-button ${className ? className : ""} ${
+        transparent ? "primary-button--transparent" : ""
+      }`}
     >
       <p>{text}</p>
     </a>

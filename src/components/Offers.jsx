@@ -7,6 +7,7 @@ export default function Offers({
   return (
     <section
       className={`offers ${backgroundSecondary ? "background-secondary" : ""}`}
+      id="tilbyder"
     >
       <div className="offers__inner page-container">
         <h2 className="offers__title">{title}</h2>

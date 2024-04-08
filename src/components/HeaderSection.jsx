@@ -103,12 +103,30 @@ function HeaderSection() {
           <ul>
             <li onClick={() => setShow(!show)}>
               <Link
-                to={"/#about"}
-                onClick={() => scrollToAnchor("about")}
+                to={"/#tilbyder"}
+                onClick={() => scrollToAnchor("tilbyder")}
               >
-                About
+                Vi tilbyder
               </Link>
             </li>
+            <li onClick={() => setShow(!show)}>
+              <Link to={"/hvem-er-vi"}>Hvem er vi</Link>
+            </li>
+            <li onClick={() => setShow(!show)}>
+              <Link to={"/priser"}>Priser</Link>
+            </li>
+            <li onClick={() => setShow(!show)}>
+              <Link to={"/faciliter"}>Faciliter</Link>
+            </li>
+            <div
+              style={{ display: "flex" }}
+              onClick={() => setShow(!show)}
+            >
+              <PrimaryButton
+                text={"Kontakt"}
+                href={"#kontakt"}
+              />
+            </div>
           </ul>
         </div>
       </header>

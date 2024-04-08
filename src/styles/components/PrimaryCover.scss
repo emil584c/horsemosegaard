@@ -21,11 +21,10 @@
     font-weight: 400;
   }
 
-  &__image-container {
-    aspect-ratio: 1920/785;
-    width: 100%;
-    padding-top: 128px;
-    overflow: hidden;
+  &__button-container {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
   }
 
   @include break(laptop) {
@@ -37,11 +36,6 @@
 
   @include break(tablet) {
     padding-top: 140px;
-
-    &__image-container {
-      padding-top: 60px;
-      aspect-ratio: 1920/1064;
-    }
   }
 
   @include break(mobile) {

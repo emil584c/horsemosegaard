@@ -14,7 +14,16 @@ function PrimaryCover() {
             moderne rustik stil i skønne landlige omgivelser. Det er et sted
             hvor man kan være aktiv sammen med sine gæster inde og ude.
           </p>
-          <PrimaryButton text={"Læs mere"} />
+          <div className="primary-cover__button-container">
+            <PrimaryButton
+              text={"Kontakt"}
+              href={"#kontakt"}
+            />
+            <PrimaryButton
+              transparent={true}
+              text={"Læs mere"}
+            />
+          </div>
         </div>
         <ImageSlider
           images={[
