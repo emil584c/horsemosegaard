@@ -34,6 +34,10 @@ function HeaderSection() {
     });
   }, []);
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <>
       <header
@@ -53,8 +57,8 @@ function HeaderSection() {
           <ul>
             <li>
               <Link
-                to={"/#offers"}
-                onClick={() => scrollToAnchor("about")}
+                to={"/#tilbyder"}
+                onClick={() => scrollToAnchor("tilbyder")}
               >
                 Vi tilbyder
               </Link>
@@ -62,7 +66,7 @@ function HeaderSection() {
             <li>
               <Link
                 to={"/hvem-er-vi"}
-                onClick={() => scrollToAnchor("about")}
+                onClick={() => scrollToTop()}
               >
                 Hvem er vi
               </Link>
@@ -70,7 +74,7 @@ function HeaderSection() {
             <li>
               <Link
                 to={"/priser"}
-                onClick={() => scrollToAnchor("about")}
+                onClick={() => scrollToTop()}
               >
                 Priser
               </Link>
@@ -78,7 +82,7 @@ function HeaderSection() {
             <li>
               <Link
                 to={"/faciliteter"}
-                onClick={() => scrollToAnchor("about")}
+                onClick={() => scrollToTop()}
               >
                 Faciliter
               </Link>
@@ -110,13 +114,28 @@ function HeaderSection() {
               </Link>
             </li>
             <li onClick={() => setShow(!show)}>
-              <Link to={"/hvem-er-vi"}>Hvem er vi</Link>
+              <Link
+                onClick={() => scrollToTop()}
+                to={"/hvem-er-vi"}
+              >
+                Hvem er vi
+              </Link>
             </li>
             <li onClick={() => setShow(!show)}>
-              <Link to={"/priser"}>Priser</Link>
+              <Link
+                onClick={() => scrollToTop()}
+                to={"/priser"}
+              >
+                Priser
+              </Link>
             </li>
             <li onClick={() => setShow(!show)}>
-              <Link to={"/faciliter"}>Faciliter</Link>
+              <Link
+                onClick={() => scrollToTop()}
+                to={"/faciliter"}
+              >
+                Faciliter
+              </Link>
             </li>
             <div
               style={{ display: "flex" }}

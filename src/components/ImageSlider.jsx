@@ -20,7 +20,7 @@ function Slider({ images = [{ url: "", alt: "" }] }) {
           breakpoints={{
             100: {
               slidesPerView: 3,
-              spaceBetween: 20,
+              spaceBetween: 12,
             },
             668: {
               slidesPerView: 4,
