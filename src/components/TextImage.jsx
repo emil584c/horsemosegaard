@@ -9,15 +9,21 @@ function TextImage({
   images = [{ url: "", alt: "" }],
   listItems = [],
   backgroundSecondary,
+  reverse,
+  id,
 }) {
   return (
     <>
       <section
-        className={`text-image page-container ${
+        className={`text-image ${
           backgroundSecondary ? "background-secondary" : ""
         }`}
+        id={id}
       >
-        <div className="text-image__inner">
+        <div
+          style={reverse ? { flexDirection: "row-reverse" } : {}}
+          className="text-image__inner page-container"
+        >
           <div className="text-image__text-container">
             <h2 className="text-image__title">{title}</h2>
             <p className="text-image__text">{text}</p>

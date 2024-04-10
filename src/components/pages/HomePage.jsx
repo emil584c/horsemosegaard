@@ -27,6 +27,7 @@ function HomePage() {
           },
         ]}
         listItems={["Festlokale", "Overnatning", "Udearealer", "Aktiviteter"]}
+        id={"faciliteter"}
       />
       <Offers
         title="Hvad tilbyder vi"

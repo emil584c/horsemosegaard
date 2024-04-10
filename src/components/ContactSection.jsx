@@ -22,14 +22,14 @@ export default function ContactSection(props, backgroundSecondary) {
               <p>+45 21 67 42 29</p>
             </a>
             <a
-              href="mailto:emilwaellind@gmail.com"
+              href="mailto:info@horsemosegaard.com"
               className="contact-section__mail"
             >
               <img
                 src="./img/icons/mail.svg"
                 alt="mail icon"
               />
-              <p>emilwaellind@gmail.com</p>
+              <p>info@horsemosegaard.com</p>
             </a>
           </div>
         </div>

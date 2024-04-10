@@ -12,7 +12,7 @@ export default function AboutUs() {
       <TextImage
         title={"Vores faciliteter"}
         text={
-          "Thaaats insane her på gården stiller vi mange forskellige ting til rådighed bare rolig der er styr på alt for dig. mange forskellige facilititerlt for dig. mange forskellige facilititer"
+          "Horsemosegaard er et meget velholdt landsted fra 1900. Et tidligere landbrug og slægtsgård. Vi overtog gården i sommeren 2019 og gik stille og roligt i gang med at renovere de gamle staldbygninger og laden. Vi fandt ting på gården, som vi har brugt til renovering og til dekorationer på væggene og har forsøgt at bevare en hyggelig og rustik stil hele vejen igennem."
         }
         images={[
           {
@@ -24,6 +24,23 @@ export default function AboutUs() {
             alt: "alttags",
           },
         ]}
+      />
+      <TextImage
+        title={"Gården i dag"}
+        text={
+          "På gården bor i dag Per og Tove som begge er i midt 50’erne og elsker at være i gang og kreative herude. Per bygger og laver selv alt herude. Toves store interesse er hunde og hundetræning primært agility. Vi har anlagt en agility bane, hvor der trænes og undervises i agility. På gården bor også 2 hunde og 4 alpacaer."
+        }
+        images={[
+          {
+            url: "./img/speakers.png",
+            alt: "alttag",
+          },
+          {
+            url: "./img/room.png",
+            alt: "alttags",
+          },
+        ]}
+        reverse={true}
       />
       <ContactSection
         title="Kontakt os"

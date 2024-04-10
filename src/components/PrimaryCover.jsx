@@ -22,6 +22,7 @@ function PrimaryCover() {
             <PrimaryButton
               transparent={true}
               text={"Læs mere"}
+              href={"#faciliteter"}
             />
           </div>
         </div>
