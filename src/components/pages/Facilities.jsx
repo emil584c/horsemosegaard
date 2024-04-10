@@ -24,6 +24,9 @@ export default function Facilities() {
             alt: "alttags",
           },
         ]}
+        primaryButtonText={"Download plantegning"}
+        primaryButtonHref={"./img/room.png"}
+        primaryButtonTargetBlank={true}
       />
       <TextImage
         title={"Det sjove"}

@@ -2,6 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css/navigation";
 import "swiper/css";
+import PrimaryButton from "./PrimaryButton";
 
 function TextImage({
   title,
@@ -11,6 +12,9 @@ function TextImage({
   backgroundSecondary,
   reverse,
   id,
+  primaryButtonText,
+  primaryButtonHref,
+  primaryButtonTargetBlank,
 }) {
   return (
     <>
@@ -38,6 +42,13 @@ function TextImage({
                   </li>
                 ))}
               </ul>
+            )}
+            {primaryButtonText && (
+              <PrimaryButton
+                text={primaryButtonText}
+                href={primaryButtonHref}
+                targetBlank={primaryButtonTargetBlank}
+              />
             )}
           </div>
           <div className="text-image__image-slider">
