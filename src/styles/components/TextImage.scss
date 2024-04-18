@@ -90,6 +90,7 @@
   }
 
   @include break(tablet) {
+    padding: 60px 0;
     &__text {
       max-width: 320px;
     }

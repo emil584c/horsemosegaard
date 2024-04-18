@@ -48,6 +48,7 @@
   }
 
   @include break(tablet) {
+    padding: 60px 0;
     &__inner {
       flex-direction: column;
     }
