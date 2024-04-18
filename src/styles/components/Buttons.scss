@@ -99,6 +99,9 @@
   }
 
   @include break(mobile) {
+    padding-top: 0;
+    padding-bottom: 12px;
+
     &__text {
       font-size: 14px !important;
     }

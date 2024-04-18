@@ -45,7 +45,7 @@ function HomePage() {
           },
           {
             title: "Firmaarrangement",
-            text: ".",
+            text: "Vi har 10 værelser med plads til 30 personer. Der er fælles køkken, bad og toiletter.",
           },
           {
             title: "Klubhus",
