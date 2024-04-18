@@ -7,7 +7,7 @@ function PrimaryCover() {
       <section className="primary-cover">
         <div className="primary-cover__text-container page-container">
           <h1 className="primary-cover__title">
-            Lokaler til fest, arrangementer og meget mere
+            Vi skaber de hyggeligste rammer om dit arrangement
           </h1>
           <p className="primary-cover__text">
             Horsemosegaard er for dig som ønsker nogle hyggelige lokaler i en

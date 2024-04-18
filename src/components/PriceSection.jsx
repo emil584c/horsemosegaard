@@ -24,7 +24,9 @@ export default function PriceSection(props) {
               <div className="price-section__item-price-container">
                 <p className="price-section__item-price">
                   {price.price}{" "}
-                  <span className="price-section__item-price-light">+ el</span>
+                  <span className="price-section__item-price-light">
+                    Inkl. moms
+                  </span>
                 </p>
                 <p className="price-section__item-deposit">
                   Depositum: {price.deposit}

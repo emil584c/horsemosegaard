@@ -15,7 +15,7 @@ function HomePage() {
       <TextImage
         title={"Vores faciliteter"}
         text={
-          "Thaaats insane her på gården stiller vi mange forskellige ting til rådighed bare rolig der er styr på alt for dig. mange forskellige facilititerlt for dig. mange forskellige facilititer"
+          "Stedet består af to større lokaler, det ene med bar, loungeområde, poolbord, dart, bordfodbold og diskotek med mulighed for “lysshow” på dansegulvet. I det andet lokale er der plankeborde, stort buffetbord, kaffebar, en sofagruppe og stort tv. Alt herinde kan rykkes rundt på efter behov. I mellem de to lokaler er et anretterkøkken, med vask, kogeplade, ovn, køleskabe, mindre fryser og garderobeplads. Der er 1 toilet. Der er plankeborde, stole og service til 50 personer. Der er mulighed for at låne et græs areal til fx rundbold eller andre aktiviteter."
         }
         images={[
           {
@@ -27,7 +27,6 @@ function HomePage() {
             alt: "alttags",
           },
         ]}
-        listItems={["Festlokale", "Overnatning", "Udearealer", "Aktiviteter"]}
         id={"faciliteter"}
       >
         <SecondaryButton
@@ -41,20 +40,24 @@ function HomePage() {
         backgroundSecondary={true}
         offers={[
           {
-            title: "Festlokale",
-            text: "Horsemosegaard er for dig som ønsker nogle hyggelige lokaler i en moderne rustik stil ine landlige omgivelser. lokaler i en moderne rustik stil i skønne landlige omgivelser.",
+            title: "Fester",
+            text: "Vi tilbyder vores lokaler til fester som konfirmationer, fødselsdage eller andre arrangementer.",
           },
           {
-            title: "Overnatning",
-            text: "Vi har 10 værelser med plads til 30 personer. Der er fælles køkken, bad og toiletter.",
+            title: "Firmaarrangement",
+            text: ".",
           },
           {
-            title: "Udearealer",
+            title: "Klubhus",
             text: "Vi har store udearealer med mulighed for boldspil, bålplads, grill og meget mere.",
           },
           {
-            title: "Aktiviteter",
+            title: "Hundetræning",
             text: "Vi har forskellige aktiviteter som f.eks. hestevognskørsel, ridning, mountainbike og meget mere.",
+          },
+          {
+            title: "Og meget mere",
+            text: "Står du og mangler et lokale til noget som ikke er på listen, og tror du vi har de helt rigtige faciliteter? Så skriv en besked eller giv os et opkald.",
           },
         ]}
       />

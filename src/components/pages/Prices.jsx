@@ -17,21 +17,25 @@ export default function Prices() {
           {
             title: "Hverdag",
             price: "3000 kr",
-            deposit: "500 kr",
-            text: "En enkelt dag/aften i en af hverdagene fra mandag-torsdag.",
+            deposit: "1000 kr",
+            text: "En enkelt dag og aften i hverdagen fra mandag-torsdag.",
             listItems: [
-              "El-forbrug måles før og efter",
               "Depositum indbetales ved bookning",
-              "Depositum tilbage betales ved annullering 90 dage før",
-              "Restbeløb indbetales 30 dage før",
+              "Depositum tilbage betales ved annullering 60 dage før",
+              "Restbeløb indbetales 14 dage før",
             ],
           },
           {
             title: "Weekend",
-            price: "7000 kr",
+            price: "7500 kr + el",
             deposit: "3000 kr",
             text: "Book lokalet i en hel weekend fra fredag til og med søndag",
-            listItems: ["Liste punkt 1", "Liste punkt 2"],
+            listItems: [
+              "El-forbrug måles før og efter",
+              "Depositum indbetales ved bookning",
+              "Depositum tilbage betales ved annullering 60 dage før",
+              "Restbeløb indbetales 14 dage før",
+            ],
           },
         ]}
       />
@@ -41,33 +45,33 @@ export default function Prices() {
         text="Brødtekst til priser. vores forskellige priseleje, er der ikke det helt rigtige til dig? Så tag kontakt og så tager vi en snak."
         prices={[
           {
-            title: "Hverdag",
-            price: "3000 kr",
+            title: "Fotografering med 1969 Corvette",
+            price: "500 kr",
             text: "En enkelt dag/aften i en af hverdagene fra mandag-torsdag.",
           },
           {
-            title: "Weekend",
-            price: "7000 kr",
+            title: "Besøge alpacer",
+            price: "20 kr pr person",
             text: "Book lokalet i en hel weekend fra fredag til og med søndag",
           },
           {
-            title: "Hverdag",
-            price: "3000 kr",
+            title: "Råuld",
+            price: "100 kr pr 500g",
             text: "En enkelt dag/aften i en af hverdagene fra mandag-torsdag.",
           },
           {
-            title: "Weekend",
-            price: "7000 kr",
+            title: "Leje af indhegnet bane",
+            price: "125 kr / timen",
             text: "Book lokalet i en hel weekend fra fredag til og med søndag",
           },
           {
-            title: "Hverdag",
-            price: "3000 kr",
+            title: "Udlejning af hele gården",
+            price: "12000 kr",
             text: "En enkelt dag/aften i en af hverdagene fra mandag-torsdag.",
           },
           {
-            title: "Weekend",
-            price: "7000 kr",
+            title: "Rengøring",
+            price: "3000 kr",
             text: "Book lokalet i en hel weekend fra fredag til og med søndag",
           },
         ]}
