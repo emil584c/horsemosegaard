@@ -12,17 +12,6 @@ export default function PriceSection(props) {
                   <h3 className="price-section__item-title">{price.title}</h3>
                   <p className="price-section__item-text">{price.text}</p>
                 </div>
-                <div className="price-section__item-price-container">
-                  <p className="price-section__item-price">
-                    {price.price}{" "}
-                    <span className="price-section__item-price-light">
-                      + el
-                    </span>
-                  </p>
-                  <p className="price-section__item-deposit">
-                    Depositum: {price.deposit}
-                  </p>
-                </div>
               </div>
               <div className="price-section__item-line"></div>
               {price.listItems && (
@@ -32,6 +21,15 @@ export default function PriceSection(props) {
                   ))}
                 </ul>
               )}
+              <div className="price-section__item-price-container">
+                <p className="price-section__item-price">
+                  {price.price}{" "}
+                  <span className="price-section__item-price-light">+ el</span>
+                </p>
+                <p className="price-section__item-deposit">
+                  Depositum: {price.deposit}
+                </p>
+              </div>
             </div>
           ))}
         </div>

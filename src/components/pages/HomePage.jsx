@@ -4,6 +4,7 @@ import TextImage from "../TextImage.jsx";
 import TextCalender from "../TextCalender.jsx";
 import Offers from "../Offers.jsx";
 import FooterSection from "../FooterSection.jsx";
+import SecondaryButton from "../SecondaryButton.jsx";
 import ContactSection from "../ContactSection.jsx";
 
 function HomePage() {
@@ -28,7 +29,12 @@ function HomePage() {
         ]}
         listItems={["Festlokale", "Overnatning", "Udearealer", "Aktiviteter"]}
         id={"faciliteter"}
-      />
+      >
+        <SecondaryButton
+          text="Læs mere om vores faciliteter"
+          link="/faciliteter"
+        />
+      </TextImage>
       <Offers
         title="Hvad tilbyder vi"
         text="Horsemosegaard er for dig som ønsker nogle hyggelige lokaler i en moderne rustik stil i skønne landlige omgivelser. Det er et sted hvor man kan være aktiv sammen med sine gæster inde og ude."

@@ -15,6 +15,7 @@ function TextImage({
   primaryButtonText,
   primaryButtonHref,
   primaryButtonTargetBlank,
+  children,
 }) {
   return (
     <>
@@ -50,6 +51,7 @@ function TextImage({
                 targetBlank={primaryButtonTargetBlank}
               />
             )}
+            {children}
           </div>
           <div className="text-image__image-slider">
             <Swiper

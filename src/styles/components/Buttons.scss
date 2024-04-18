@@ -76,3 +76,31 @@
     }
   }
 }
+
+.secondary-button {
+  padding-top: 24px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  width: fit-content;
+  gap: 8px;
+  transition: gap 150ms linear;
+
+  &:hover {
+    gap: 16px;
+  }
+  
+  &__arrow {
+    height: 12px;
+  }
+  
+  &__text {
+    font-size: 18px !important;
+  }
+
+  @include break(mobile) {
+    &__text {
+      font-size: 14px !important;
+    }
+  }
+}

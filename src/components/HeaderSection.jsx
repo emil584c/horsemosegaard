@@ -132,7 +132,7 @@ function HeaderSection() {
             <li onClick={() => setShow(!show)}>
               <Link
                 onClick={() => scrollToTop()}
-                to={"/faciliter"}
+                to={"/faciliteter"}
               >
                 Faciliter
               </Link>
