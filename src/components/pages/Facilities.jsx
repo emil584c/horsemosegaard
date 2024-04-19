@@ -12,7 +12,7 @@ export default function Facilities() {
       <TextImage
         title={"Vores lokaler"}
         text={
-          "Horsemosegaard er et meget velholdt landsted fra 1900. Et tidligere landbrug og slægtsgård. Vi overtog gården i sommeren 2019 og gik stille og roligt i gang med at renovere de gamle staldbygninger og laden. Vi fandt ting på gården, som vi har brugt til renovering og til dekorationer på væggene og har forsøgt at bevare en hyggelig og rustik stil hele vejen igennem."
+          "Lokalerne er hyggelige og rustikke. Dét ene med bjælker i lofter, lys som kan dæmpes, store plankeborde og anretter borde i samme stil. I det andet lokale kan du slå dig løs på dansegulvet eller dyste i diverse spil, tage en hyggelig snak i loungeområdet eller i baren."
         }
         images={[
           {
@@ -24,14 +24,20 @@ export default function Facilities() {
             alt: "alttags",
           },
         ]}
-        primaryButtonText={"Download plantegning"}
-        primaryButtonHref={"./img/room.png"}
-        primaryButtonTargetBlank={true}
+        listItems={[
+          "2 Anretter køkkener med service til 50",
+          "1 toilet",
+          "Varmes op med elradiator",
+          "Mindre udendørs terasse",
+        ]}
+        // primaryButtonText={"Download plantegning"}
+        // primaryButtonHref={"./img/room.png"}
+        // primaryButtonTargetBlank={true}
       />
       <TextImage
-        title={"Det sjove"}
+        title={"Aktiviter"}
         text={
-          "Horsemosegaard er et meget velholdt landsted fra 1900. Et tidligere landbrug og slægtsgård. Vi overtog gården i sommeren 2019 og gik stille og roligt i gang med at renovere de gamle staldbygninger og laden. Vi fandt ting på gården, som vi har brugt til renovering og til dekorationer på væggene og har forsøgt at bevare en hyggelig og rustik stil hele vejen igennem."
+          "Vi har mange sjove aktiviteter for både voksne og børn. Alle aktiviterne følger med ved leje af lokalerne."
         }
         images={[
           {
@@ -42,14 +48,21 @@ export default function Facilities() {
             url: "./img/room.png",
             alt: "alttags",
           },
+        ]}
+        listItems={[
+          "Poolbord",
+          "Dart",
+          "Bordfodbold",
+          "Bordtennis",
+          "Diskotek med lys mv.",
         ]}
         reverse={true}
         backgroundSecondary={true}
       />
       <TextImage
-        title={"Service og hvidevarer"}
+        title={"Elektronik"}
         text={
-          "Horsemosegaard er et meget velholdt landsted fra 1900. Et tidligere landbrug og slægtsgård. Vi overtog gården i sommeren 2019 og gik stille og roligt i gang med at renovere de gamle staldbygninger og laden. Vi fandt ting på gården, som vi har brugt til renovering og til dekorationer på væggene og har forsøgt at bevare en hyggelig og rustik stil hele vejen igennem."
+          "Vi stiller forskelligt elektronik og hvidevarer til rådighed. Følgende er til rådighed, men vi anbefaler at i tager kontakt for at høre om specifikke behov."
         }
         images={[
           {
@@ -60,6 +73,15 @@ export default function Facilities() {
             url: "./img/room.png",
             alt: "alttags",
           },
+        ]}
+        listItems={[
+          "3 Køleskabe",
+          "Fryser",
+          "Mikrobølgeovn",
+          "Opvaskemaskine",
+          "Kaffemaskine og elkedel",
+          "Komfur",
+          "Wifi",
         ]}
       />
       <ContactSection

@@ -48,7 +48,7 @@ function FooterSection() {
             </ul>
           </div>
           <div className="footer-section__row">
-            <h3 className="footer-section__row-title">Her finder ud os</h3>
+            <h3 className="footer-section__row-title">Her finder du os</h3>
             <ul>
               <li>
                 <a href="tel:+4542544888">
@@ -57,6 +57,15 @@ function FooterSection() {
                   4632 Bjæverskov
                 </a>
               </li>
+              <a
+                href="https://www.instagram.com/horsemosegaard/"
+                target="_blank"
+              >
+                <img
+                  src="./img/icons/instagram.svg"
+                  alt="instagram logo"
+                />
+              </a>
             </ul>
           </div>
           <div className="footer-section__row">

@@ -47,32 +47,32 @@ export default function Prices() {
           {
             title: "Fotografering med 1969 Corvette",
             price: "500 kr",
-            text: "En enkelt dag/aften i en af hverdagene fra mandag-torsdag.",
+            text: "Tilbydes i forbindelse med arrangement på gården. Billederne tages med Nikon og leveres digitalt efterfølgende.",
           },
           {
             title: "Besøge alpacer",
             price: "20 kr pr person",
-            text: "Book lokalet i en hel weekend fra fredag til og med søndag",
+            text: "Mød vores alpacaer og hør mere om disse sjove og hyggelige dyr. Tilbydes i forbindelse med arrangement på gården.",
           },
           {
             title: "Råuld",
-            price: "100 kr pr 500g",
-            text: "En enkelt dag/aften i en af hverdagene fra mandag-torsdag.",
+            price: "150 kr pr 500g",
+            text: "Alpaca råuld, kun 1. sortering. Groft renset.",
           },
           {
             title: "Leje af indhegnet bane",
             price: "125 kr / timen",
-            text: "Book lokalet i en hel weekend fra fredag til og med søndag",
+            text: "Leje af indhegnet bane med agility udstyr.",
           },
           {
-            title: "Udlejning af hele gården",
+            title: "Udlejning af hele området",
             price: "12000 kr",
-            text: "En enkelt dag/aften i en af hverdagene fra mandag-torsdag.",
+            text: "Der er mulighed for leje af hele området inkl. have med petanque bane, bålsted og gårdhave til fx teambuilding eller andet.",
           },
           {
             title: "Rengøring",
             price: "3000 kr",
-            text: "Book lokalet i en hel weekend fra fredag til og med søndag",
+            text: "Som udgangspunkt klarer man dette selv - men kan tilkøbes ved weekendleje. Dog skal alt affald, flasker og madrester fjernes forinden.",
           },
         ]}
       />

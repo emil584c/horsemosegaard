@@ -11,8 +11,7 @@
   &__title {
     padding-bottom: 32px;
     text-align: center;
-    font-family: "Hepta Slab", serif !important;
-    line-height: 110%;
+    font-family: "Hamhlet", serif !important;
   }
 
   &__text {
@@ -32,7 +31,7 @@
   @include break(laptop) {
     &__text {
       font-size: 14px !important;
-      max-width: 480px;
+      max-width: 540px;
     }
 
     &__title {

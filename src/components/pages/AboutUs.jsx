@@ -10,7 +10,7 @@ export default function AboutUs() {
       <HeaderSection />
       <SecondaryCover title="Hvem er vi" />
       <TextImage
-        title={"Vores faciliteter"}
+        title={"Gårdens historie"}
         text={
           "Horsemosegaard er et meget velholdt landsted fra 1900. Et tidligere landbrug og slægtsgård. Vi overtog gården i sommeren 2019 og gik stille og roligt i gang med at renovere de gamle staldbygninger og laden. Vi fandt ting på gården, som vi har brugt til renovering og til dekorationer på væggene og har forsøgt at bevare en hyggelig og rustik stil hele vejen igennem."
         }

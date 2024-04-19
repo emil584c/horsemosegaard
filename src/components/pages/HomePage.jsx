@@ -36,24 +36,24 @@ function HomePage() {
       </TextImage>
       <Offers
         title="Hvad tilbyder vi"
-        text="Horsemosegaard er for dig som ønsker nogle hyggelige lokaler i en moderne rustik stil i skønne landlige omgivelser. Det er et sted hvor man kan være aktiv sammen med sine gæster inde og ude."
+        text="På Horsemosegaard tilbyder vi hyggelige lokaler i en moderne rustik stil i skønne landlige omgivelser. Det er et sted hvor man kan være aktiv sammen med sine gæster inde og ude."
         backgroundSecondary={true}
         offers={[
           {
             title: "Fester",
-            text: "Vi tilbyder vores lokaler til fester som konfirmationer, fødselsdage eller andre arrangementer.",
+            text: "Hold en livets store fester herude.<br/> Konfirmation, barnedåb, bryllup, runde fødselsdage mm.",
           },
           {
             title: "Firmaarrangement",
-            text: "Vi har 10 værelser med plads til 30 personer. Der er fælles køkken, bad og toiletter.",
-          },
-          {
-            title: "Klubhus",
-            text: "Vi har store udearealer med mulighed for boldspil, bålplads, grill og meget mere.",
+            text: "Book lokaler og evt udendørs arealer til dit næste firma arrangement. Det kan være til teambuilding. Møder. Sommerfest eller andet. Som udgangspunkt står man selv for det hele, men vi kan også tilbyde at stå for dele af arrangementet.",
           },
           {
             title: "Hundetræning",
-            text: "Vi har forskellige aktiviteter som f.eks. hestevognskørsel, ridning, mountainbike og meget mere.",
+            text: "Vi har en indhegnet bane på 1200 kvm som kan lejes pr time eller hele dage. På banen er agility udstyr. Der vil i perioder blive tilbudt agility træning.",
+          },
+          {
+            title: "Hobby",
+            text: "Har du brug for et sted hvor du kan undervise evt i kombination med træningsbanen udenfor Eller et sted at holde det næste bestyrelsesmøde eller generalforsamling.",
           },
           {
             title: "Og meget mere",
@@ -61,12 +61,7 @@ function HomePage() {
           },
         ]}
       />
-      <TextCalender
-        title={"Hvornår er vi ledige?"}
-        text={
-          "Thaaats insane her på gården stiller vi mange forskellige ting til rådighed bare rolig der er styr på alt for dig. mange forskellige facilititerlt for dig. mange forskellige facilititer"
-        }
-      />
+
       <ContactSection
         title="Kontakt os"
         text="Har i spørgsmål til vores faciliteter, eller har i lyst til at tage en snak om vi er det rette sted for jer, så send en besked over messenger osv osv."
