@@ -41,7 +41,7 @@ function HomePage() {
         offers={[
           {
             title: "Fester",
-            text: "Hold en livets store fester herude.<br/> Konfirmation, barnedåb, bryllup, runde fødselsdage mm.",
+            text: "Hold en livets store fester herude. Konfirmation, barnedåb, bryllup, runde fødselsdage mm.",
           },
           {
             title: "Firmaarrangement",

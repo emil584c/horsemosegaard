@@ -7,10 +7,14 @@ export default function SecondaryPriceSection(props) {
         <div className="secondary-price-section__grid">
           {props.prices.map((price) => (
             <div className="secondary-price-section__item">
-              <h3 className="secondary-price-section__item-title">
-                {price.title}
-              </h3>
-              <p className="secondary-price-section__item-text">{price.text}</p>
+              <div>
+                <h3 className="secondary-price-section__item-title">
+                  {price.title}
+                </h3>
+                <p className="secondary-price-section__item-text">
+                  {price.text}
+                </p>
+              </div>
               <p className="secondary-price-section__item-price">
                 {price.price}
               </p>

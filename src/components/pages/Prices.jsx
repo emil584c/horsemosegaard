@@ -42,7 +42,7 @@ export default function Prices() {
 
       <SecondaryPriceSection
         title="Andre tilkøb"
-        text="Brødtekst til priser. vores forskellige priseleje, er der ikke det helt rigtige til dig? Så tag kontakt og så tager vi en snak."
+        text="Udover leje af lokaler, tilbyder vi også en række andre services og produkter, som kan tilkøbes i forbindelse med arrangementer på gården."
         prices={[
           {
             title: "Fotografering med 1969 Corvette",
