@@ -41,24 +41,28 @@ function PrimaryCover() {
               alt: "3",
             },
             {
-              url: "./img/longtable.jpg",
+              url: "./img/outside-room.jpg",
               alt: "4",
             },
             {
-              url: "./img/kitchensink.jpg",
+              url: "./img/longtable.jpg",
               alt: "5",
             },
             {
-              url: "./img/pooltable.jpg",
+              url: "./img/kitchensink.jpg",
               alt: "6",
             },
             {
-              url: "./img/changing-room.jpg",
+              url: "./img/pooltable.jpg",
               alt: "7",
             },
             {
-              url: "./img/room.png",
+              url: "./img/changing-room.jpg",
               alt: "8",
+            },
+            {
+              url: "./img/room.png",
+              alt: "9",
             },
           ]}
         />

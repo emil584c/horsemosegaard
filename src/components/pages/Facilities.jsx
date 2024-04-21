@@ -39,6 +39,10 @@ export default function Facilities() {
             url: "./img/changing-room.jpg",
             alt: "A changing room",
           },
+          {
+            url: "./img/bar.jpg",
+            alt: "A bar",
+          },
         ]}
         // primaryButtonText={"Download plantegning"}
         // primaryButtonHref={"./img/room.png"}
@@ -115,7 +119,7 @@ export default function Facilities() {
       <ContactSection
         title="Kontakt os"
         text="Har i spørgsmål til vores faciliteter eller om lokalerne, eller har i lyst til at tage en snak om vi er det rette sted for jer, så send en mail eller giv os et kald, og så tager vi en snak."
-        image={{ url: "./img/room.png", alt: "alttag" }}
+        image={{ url: "./img/sunset2.jpg", alt: "A sunset" }}
         backgroundSecondary={true}
       />
       <FooterSection />

@@ -19,12 +19,24 @@ function HomePage() {
         }
         images={[
           {
-            url: "./img/speakers.png",
-            alt: "alttag",
+            url: "./img/room.png",
+            alt: "A room",
           },
           {
-            url: "./img/room.png",
-            alt: "alttags",
+            url: "./img/kitchensink.jpg",
+            alt: "A kitchen area",
+          },
+          {
+            url: "./img/longtable-tv.jpg",
+            alt: "A longtable with tv in background",
+          },
+          {
+            url: "./img/electronics.jpg",
+            alt: "A room with electronics",
+          },
+          {
+            url: "./img/bar.jpg",
+            alt: "A bar",
           },
         ]}
         id={"faciliteter"}
@@ -65,7 +77,7 @@ function HomePage() {
       <ContactSection
         title="Kontakt os"
         text="Har i spørgsmål til vores faciliteter eller om lokalerne, eller har i lyst til at tage en snak om vi er det rette sted for jer, så send en mail eller giv os et kald, og så tager vi en snak."
-        image={{ url: "./img/room.png", alt: "alttag" }}
+        image={{ url: "./img/sunset2.jpg", alt: "A sunset" }}
         backgroundSecondary={true}
       />
       <FooterSection />
