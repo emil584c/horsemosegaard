@@ -90,6 +90,15 @@
 
   &__copyright {
     margin: auto;
+    padding-top: 8px;
+    width: fit-content;
+    font-weight: 300;
+    font-size: 14px;
+    color: #fff;
+  }
+
+  &__cvr {
+    margin: auto;
     padding-top: 32px;
     width: fit-content;
     font-weight: 300;
