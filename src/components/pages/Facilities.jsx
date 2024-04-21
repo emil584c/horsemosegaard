@@ -12,7 +12,7 @@ export default function Facilities() {
       <TextImage
         title={"Vores lokaler"}
         text={
-          "Lokalerne er hyggelige og rustikke. Dét ene med bjælker i lofter, lys som kan dæmpes, store plankeborde og anretter borde i samme stil. I det andet lokale kan du slå dig løs på dansegulvet eller dyste i diverse spil, tage en hyggelig snak i loungeområdet eller i baren."
+          "Lokalerne er hyggelige og rustikke. Dét ene med bjælker i lofter, lys som kan dæmpes, store plankeborde og anretter borde i samme stil. I det andet lokale kan du slå dig løs på dansegulvet eller dyste i diverse spil, tage en hyggelig snak i loungeområdet eller i baren. Derudover er der et anretterkøkken, garderobe, et toilet og mulighed for adgang til udendørs areal."
         }
         images={[
           {
@@ -23,12 +23,6 @@ export default function Facilities() {
             url: "./img/room.png",
             alt: "alttags",
           },
-        ]}
-        listItems={[
-          "2 Anretter køkkener med service til 50",
-          "1 toilet",
-          "Varmes op med elradiator",
-          "Mindre udendørs terasse",
         ]}
         // primaryButtonText={"Download plantegning"}
         // primaryButtonHref={"./img/room.png"}
@@ -54,13 +48,14 @@ export default function Facilities() {
           "Dart",
           "Bordfodbold",
           "Bordtennis",
-          "Diskotek med lys mv.",
+          "Diskotek med lys og røgmaskine mv.",
+          "Basketkurv",
         ]}
         reverse={true}
         backgroundSecondary={true}
       />
       <TextImage
-        title={"Elektronik"}
+        title={"Teknisk udstyr"}
         text={
           "Vi stiller forskelligt elektronik og hvidevarer til rådighed. Følgende er til rådighed, men vi anbefaler at i tager kontakt for at høre om specifikke behov."
         }
@@ -75,12 +70,13 @@ export default function Facilities() {
           },
         ]}
         listItems={[
+          "85 Tommer LED 4K storskærms TV",
           "3 Køleskabe",
           "Fryser",
-          "Mikrobølgeovn",
+          "Ovn og mikrobølgeovn",
           "Opvaskemaskine",
           "Kaffemaskine og elkedel",
-          "Komfur",
+          "Induktionskogeplader",
           "Wifi",
         ]}
       />

@@ -25,7 +25,7 @@ export default function PriceSection(props) {
                 <p className="price-section__item-price">
                   {price.price}{" "}
                   <span className="price-section__item-price-light">
-                    Inkl. moms
+                    Inkl. moms {price.el && "+ el forbrug"}
                   </span>
                 </p>
                 <p className="price-section__item-deposit">

@@ -15,7 +15,7 @@ function HomePage() {
       <TextImage
         title={"Vores faciliteter"}
         text={
-          "Stedet består af to større lokaler, det ene med bar, loungeområde, poolbord, dart, bordfodbold og diskotek med mulighed for “lysshow” på dansegulvet. I det andet lokale er der plankeborde, stort buffetbord, kaffebar, en sofagruppe og stort tv. Alt herinde kan rykkes rundt på efter behov. I mellem de to lokaler er et anretterkøkken, med vask, kogeplade, ovn, køleskabe, mindre fryser og garderobeplads. Der er 1 toilet. Der er plankeborde, stole og service til 50 personer. Der er mulighed for at låne et græs areal til fx rundbold eller andre aktiviteter."
+          "Horsemosegaard består af to større lokaler, det ene med bar, loungeområde, poolbord, dart, bordfodbold og diskotek med mulighed for “lysshow” på dansegulvet. I det andet lokale er der plankeborde, stort buffetbord, kaffebar, en sofagruppe og stort tv. Alt herinde kan rykkes rundt på efter behov. I mellem de to lokaler er et anretterkøkken, med vask, opvaskemaskine, kogeplade, ovn, mikroovn, køleskabe, mindre fryser og garderobeplads. Der er 1 toilet. Der er plankeborde, stole og service til 50 personer. Der er mulighed for at låne et græs areal til fx rundbold eller andre aktiviteter og hilse på vores alpacer."
         }
         images={[
           {
@@ -36,16 +36,16 @@ function HomePage() {
       </TextImage>
       <Offers
         title="Hvad tilbyder vi"
-        text="På Horsemosegaard tilbyder vi hyggelige lokaler i en moderne rustik stil i skønne landlige omgivelser. Det er et sted hvor man kan være aktiv sammen med sine gæster inde og ude."
+        text="På Horsemosegaard tilbyder vi vores lokaler til et bredt udvalg af arrangementer, både til private samt firmaer."
         backgroundSecondary={true}
         offers={[
           {
             title: "Fester",
-            text: "Hold en livets store fester herude. Konfirmation, barnedåb, bryllup, runde fødselsdage mm.",
+            text: "Hold en livets store fester herude, såsom konfirmation, barnedåb, bryllup, runde fødselsdage mm.",
           },
           {
             title: "Firmaarrangement",
-            text: "Book lokaler og evt udendørs arealer til dit næste firma arrangement. Det kan være til teambuilding. Møder. Sommerfest eller andet. Som udgangspunkt står man selv for det hele, men vi kan også tilbyde at stå for dele af arrangementet.",
+            text: "Book lokaler og evt udendørs arealer til dit næste firma arrangement. Det kan være til teambuilding, møder, sommerfest, julefrokost eller andet.",
           },
           {
             title: "Hundetræning",
@@ -53,7 +53,7 @@ function HomePage() {
           },
           {
             title: "Hobby",
-            text: "Har du brug for et sted hvor du kan undervise evt i kombination med træningsbanen udenfor Eller et sted at holde det næste bestyrelsesmøde eller generalforsamling.",
+            text: "Har du brug for et sted hvor du kan undervise, holde det næste bestyrelsesmøde eller generalforsamling. Dette kan være kombination med træningsbanen udenfor.",
           },
           {
             title: "Og meget mere",
