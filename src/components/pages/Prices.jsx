@@ -12,7 +12,7 @@ export default function Prices() {
       <SecondaryCover title="Priser" />
       <PriceSection
         title="Udlejning af lokaler"
-        text="Brødtekst til priser. vores forskellige priseleje, er der ikke det helt rigtige til dig? Så tag kontakt og så tager vi en snak."
+        text="Vi udlejer vores lokaler i en hverdag, eller en hel weekend. Hvis i har specielle ønsker, så tøv ikke med at kontakte os."
         prices={[
           {
             title: "Hverdag",
@@ -78,7 +78,7 @@ export default function Prices() {
       />
       <ContactSection
         title="Kontakt os"
-        text="Har i spørgsmål til vores faciliteter, eller har i lyst til at tage en snak om vi er det rette sted for jer, så send en besked over messenger osv osv."
+        text="Har i spørgsmål til vores faciliteter eller om lokalerne, eller har i lyst til at tage en snak om vi er det rette sted for jer, så send en mail eller giv os et kald, og så tager vi en snak."
         image={{ url: "./img/room.png", alt: "alttag" }}
         backgroundSecondary={true}
       />
