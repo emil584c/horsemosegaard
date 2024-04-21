@@ -16,12 +16,24 @@ export default function Facilities() {
         }
         images={[
           {
-            url: "./img/speakers.png",
-            alt: "alttag",
+            url: "./img/longtable-tv.jpg",
+            alt: "Room with longtable and a TV",
           },
           {
-            url: "./img/room.png",
-            alt: "alttags",
+            url: "./img/lounge-area.jpg",
+            alt: "A lounge area",
+          },
+          {
+            url: "./img/kitchensink.jpg",
+            alt: "A kitchen area",
+          },
+          {
+            url: "./img/servicetable.jpg",
+            alt: "A table for service",
+          },
+          {
+            url: "./img/longtable-setup2.jpg",
+            alt: "A longtable setup with service",
           },
         ]}
         // primaryButtonText={"Download plantegning"}
@@ -35,12 +47,24 @@ export default function Facilities() {
         }
         images={[
           {
-            url: "./img/speakers.png",
-            alt: "alttag",
+            url: "./img/pooltable.jpg",
+            alt: "A pool table",
           },
           {
-            url: "./img/room.png",
-            alt: "alttags",
+            url: "./img/dart.jpg",
+            alt: "A dart board",
+          },
+          {
+            url: "./img/foosball.jpg",
+            alt: "A foosball table",
+          },
+          {
+            url: "./img/poolgame.jpg",
+            alt: "A pool game",
+          },
+          {
+            url: "./img/table-tennis.jpg",
+            alt: "A table tennis table",
           },
         ]}
         listItems={[
@@ -61,12 +85,12 @@ export default function Facilities() {
         }
         images={[
           {
-            url: "./img/speakers.png",
-            alt: "alttag",
+            url: "./img/tv.jpg",
+            alt: "A TV with speakers",
           },
           {
-            url: "./img/room.png",
-            alt: "alttags",
+            url: "./img/fridge-filled.jpg",
+            alt: "A fridge filled with drinks",
           },
         ]}
         listItems={[
