@@ -16,12 +16,8 @@ export default function AboutUs() {
         }
         images={[
           {
-            url: "./img/speakers.png",
-            alt: "alttag",
-          },
-          {
-            url: "./img/room.png",
-            alt: "alttags",
+            url: "./img/old-farm.jpg",
+            alt: "An old image of the area",
           },
         ]}
       />
@@ -32,12 +28,12 @@ export default function AboutUs() {
         }
         images={[
           {
-            url: "./img/speakers.png",
-            alt: "alttag",
+            url: "./img/alpaca-group.jpg",
+            alt: "A group of alpacas",
           },
           {
-            url: "./img/room.png",
-            alt: "alttags",
+            url: "./img/dogs.jpg",
+            alt: "2 dogs",
           },
         ]}
         reverse={true}

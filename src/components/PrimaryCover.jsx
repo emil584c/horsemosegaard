@@ -29,31 +29,31 @@ function PrimaryCover() {
         <ImageSlider
           images={[
             {
-              url: "./img/speakers.png",
+              url: "./img/outside-sunset.jpg",
               alt: "1",
             },
             {
-              url: "./img/room.png",
+              url: "./img/lounge-area.jpg",
               alt: "2",
             },
             {
-              url: "./img/speakers.png",
+              url: "./img/alpaca-group.jpg",
               alt: "3",
             },
             {
-              url: "./img/room.png",
+              url: "./img/longtable.jpg",
               alt: "4",
             },
             {
-              url: "./img/speakers.png",
+              url: "./img/kitchensink.jpg",
               alt: "5",
             },
             {
-              url: "./img/room.png",
+              url: "./img/pooltable.jpg",
               alt: "6",
             },
             {
-              url: "./img/room.png",
+              url: "./img/changing-room.jpg",
               alt: "7",
             },
             {

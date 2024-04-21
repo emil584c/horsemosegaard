@@ -35,6 +35,10 @@ export default function Facilities() {
             url: "./img/longtable-setup2.jpg",
             alt: "A longtable setup with service",
           },
+          {
+            url: "./img/changing-room.jpg",
+            alt: "A changing room",
+          },
         ]}
         // primaryButtonText={"Download plantegning"}
         // primaryButtonHref={"./img/room.png"}
@@ -91,6 +95,10 @@ export default function Facilities() {
           {
             url: "./img/fridge-filled.jpg",
             alt: "A fridge filled with drinks",
+          },
+          {
+            url: "./img/electronics.jpg",
+            alt: "A collection of electronics",
           },
         ]}
         listItems={[
