@@ -11,9 +11,9 @@ function PrimaryCover() {
           </h1>
           <p className="primary-cover__text">
             Horsemosegaard er for dig som ønsker hyggelige lokaler i en moderne
-            rustik stil i skønne landlige omgivelser. Vi er i beliggende i
-            Bjæverskov, tæt på Køge. Dette er stedet hvor man kan være aktiv
-            sammen med sine gæster inde og ude.
+            rustik stil i skønne landlige omgivelser. Dette er stedet hvor man
+            kan være aktiv sammen med sine gæster inde og ude. Vi er i
+            beliggende i Bjæverskov, tæt på Køge.
           </p>
           <div className="primary-cover__button-container">
             <PrimaryButton
