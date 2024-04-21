@@ -53,11 +53,11 @@ function HomePage() {
         offers={[
           {
             title: "Fester",
-            text: "Hold en livets store fester herude, såsom konfirmation, barnedåb, bryllup, runde fødselsdage mm.",
+            text: "Hold en af livets store fester herude, såsom konfirmation, barnedåb, bryllup, runde fødselsdage mm.",
           },
           {
             title: "Firmaarrangement",
-            text: "Book lokaler og evt udendørs arealer til dit næste firma arrangement. Det kan være til teambuilding, møder, sommerfest, julefrokost eller andet.",
+            text: "Book lokaler og evt udendørs arealer til dit næste firmaarrangement. Det kan være til teambuilding, møder, sommerfest, julefrokost eller andet.",
           },
           {
             title: "Hundetræning",

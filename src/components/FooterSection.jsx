@@ -15,8 +15,8 @@ function FooterSection() {
             </Link>
             <p className="footer-section__text">
               Hyggelige lokaler i en moderne rustik stil i skønne landlige
-              omgivelser. Det er et sted hvor man kan være aktiv sammen med sine
-              gæster inde og ude.
+              omgivelser. Dette er stedet hvor man kan være aktiv sammen med
+              sine gæster inde og ude.
             </p>
           </div>
           <div className="footer-section__row">
