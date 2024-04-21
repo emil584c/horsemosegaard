@@ -12,7 +12,7 @@ export default function Prices() {
       <SecondaryCover title="Priser" />
       <PriceSection
         title="Udlejning af lokaler"
-        text="Vi udlejer vores lokaler i en hverdag, eller en hel weekend. Hvis i har specielle ønsker, så tøv ikke med at kontakte os."
+        text="Vi udlejer vores lokaler i hverdage, eller en hel weekend. Hvis i har specielle ønsker, så tøv ikke med at kontakte os."
         prices={[
           {
             title: "Hverdag",

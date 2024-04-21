@@ -74,6 +74,10 @@ export default function Facilities() {
             url: "./img/table-tennis.jpg",
             alt: "A table tennis table",
           },
+          {
+            url: "./img/speakers.png",
+            alt: "Speaker area with lights and smoke machine",
+          },
         ]}
         listItems={[
           "Poolbord",
