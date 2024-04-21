@@ -52,7 +52,10 @@ function FooterSection() {
             <h3 className="footer-section__row-title">Her finder du os</h3>
             <ul>
               <li>
-                <a href="tel:+4542544888">
+                <a
+                  target="_blank"
+                  href="https://www.google.com/maps/dir//Gummersmarkvej+23,+4632+Bj%C3%A6verskov/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x4652ed62f3fe2f95:0x6d66308573560277?sa=X&ved=1t:707&ictx=111"
+                >
                   Gummersmarkvej 23
                   <br />
                   4632 Bjæverskov

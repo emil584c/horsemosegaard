@@ -10,9 +10,9 @@ function PrimaryCover() {
             Vi skaber de hyggeligste rammer om dit arrangement
           </h1>
           <p className="primary-cover__text">
-            Horsemosegaard er for dig som ønsker nogle hyggelige lokaler i en
-            moderne rustik stil i skønne landlige omgivelser. Det er et sted
-            hvor man kan være aktiv sammen med sine gæster inde og ude.
+            Horsemosegaard er for dig som ønsker hyggelige lokaler i en moderne
+            rustik stil i skønne landlige omgivelser. Dette er stedet hvor man
+            kan være aktiv sammen med sine gæster inde og ude.
           </p>
           <div className="primary-cover__button-container">
             <PrimaryButton
