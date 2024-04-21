@@ -87,8 +87,10 @@ function FooterSection() {
             </ul>
           </div>
         </div>
-        <p className="footer-section__cvr">CVR-nr.: 4473 5903</p>
-        <p className="footer-section__copyright">
+        <p className="footer-section__cvr page-container">
+          CVR-nr.: 44 73 59 03
+        </p>
+        <p className="footer-section__copyright page-container">
           © 2024 Horsemosegaard. All rights reserved.
         </p>
       </footer>
